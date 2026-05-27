@@ -1,0 +1,8 @@
+all:
+  children:
+    webservers:
+      hosts:
+        meditrack-ec2:
+          ansible_host: 13.39.104.96
+          ansible_user: ubuntu
+          ansible_ssh_private_key_file: ~/.ssh/id_ec2_mediTrack
